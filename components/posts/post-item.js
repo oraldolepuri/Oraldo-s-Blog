@@ -24,8 +24,6 @@ function PostItem(props) {
             alt={title}
             width={300}
             height={200}
-            layout="fill"
-            objectFit='contain'
           />
         </div>
         <div className={classes.content}>

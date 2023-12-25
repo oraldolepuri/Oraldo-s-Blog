@@ -32,9 +32,10 @@ function PostContent(props) {
                 return (<div className={classes.image} >
                     <Image src={`/images/posts/${post.slug}/${image.properties.src}`}
                      alt={image.alt}
-                     width={600}
-                     height={300}
-                                   />
+                     width={0}
+                     height={0}
+                     sizes="100vw"
+                     style={{width:'100%',height:'100%'}}      />
                 </div>);
             }
             return <p>{paragraph.children}</p>

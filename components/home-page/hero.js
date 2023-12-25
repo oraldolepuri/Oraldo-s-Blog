@@ -9,7 +9,7 @@ function Hero() {
           </div>
           <h1>Hi, I am Oraldo</h1>
           <p>
-            I blog about web development - especially frontend frameworks like React.
+            I blog about web development - especially frontend frameworks like React and Next.
           </p>
         </section>
     );
